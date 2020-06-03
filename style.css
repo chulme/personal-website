@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+
+/*--- SCROLL BAR --- */
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #797979;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(65, 65, 65);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(48, 48, 48);
+}
+
+
+
+/*--- NAVBAR ---*/
+.navbar{
+    background-color: white;
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    height: 60px!important;
+    padding: .8rem;
+    box-shadow: 5px 5px 150px;
+}
+
+.navbarlogo{
+    width:100px;
+}
+
+.navbar_brand{
+  padding-left: 5%;
+}
+
+#navbarResponsive{
+  padding-right: 5%;
+}
+
+.navbar-nav li{
+  padding-right: 50px;
+}
+
+.nav-link{
+  font-size: 1.1em !important;
+}
+
+/* --- HEADER --- */
+.programming{
+    background: url("Website Photos/Software Eng.JPG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+    width: 100%;
+    color: white;
+
+  
+  }
+
+#parallax_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.lead{
+    font-size: x-large;
+}
+
+#biography{
+    background-color: whitesmoke;
+    padding: 1.25% 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#biography_text{
+    text-align: right;
+}
+
+
+#biography_picture{
+    border-radius: 50%;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.jumbotron{
+    background-color: whitesmoke;
+}
+
+
+#center-cropped{
+    object-fit: none; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 300px;
+    width: 800px;
+    
+}
+  
+  
+
+
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
