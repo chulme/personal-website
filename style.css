@@ -15,6 +15,12 @@ html {
   scroll-behavior: smooth;
 }
 
+:root {
+  --accent: rgb(43, 135, 189);
+  --dark-accent: rgb(34, 101, 139);
+}
+
+
 
 
 /*--- SCROLL BAR --- */
@@ -98,14 +104,52 @@ html {
     align-items: center;
 }
 
+
+
+#biography_buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  max-width: 350px;
+}
+
+
+/* Style buttons */
+.btn {
+  background-color: Transparent;
+  border: none; /* Remove borders */
+}
+
+#btn:hover{
+  outline: 0 !important;
+
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+#biography_buttons i{
+  margin: 15px 5%;
+  font-size: 40px;
+}
+
+/* Darker background on mouse-over */
+#biography_buttons i:hover {
+  color: var(--dark-accent ) !important;
+}
+
+
 #biography_text{
     text-align: right;
 }
 
-
 #biography_picture{
     border-radius: 50%;
-    max-width: 400px;
+    max-width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,7 +190,30 @@ html {
   display: inline-block;
 }
 
+.email{
+  display:inline-block;
+  vertical-align:middle;
+  }
+  
+#icon{
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left:-10px;
+}
 
+b{
+  color: var(--accent);
+}
+  
+hr{
+  border-color: var(--accent);
+  margin:5px 0px;
+}
+i{
+  color: var(--accent);
+  font-size:30px
+}
   
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
