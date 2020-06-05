@@ -18,6 +18,8 @@ html {
 :root {
   --accent: rgb(43, 135, 189);
   --dark-accent: rgb(34, 101, 139);
+  --darker-accent: rgb(15, 53, 75);
+
 }
 
 
@@ -223,3 +225,7 @@ i{
 
 
 
+footer{
+  background-color: var(--darker-accent);
+  color: var(--accent);
+}
