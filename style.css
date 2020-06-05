@@ -11,6 +11,10 @@
   
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 
 /*--- SCROLL BAR --- */
@@ -73,8 +77,6 @@
     height: 800px;
     width: 100%;
     color: white;
-
-  
   }
 
 #parallax_text{
@@ -115,6 +117,18 @@
 }
 
 
+.hiking{
+  background: url("Website Photos/Walking.jpg") no-repeat center;
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  color: white;
+  text-shadow: 0px 0px 4px black;
+
+}
+
+
+
 #center-cropped{
     object-fit: none; /* Do not scale the image */
     object-position: center; /* Center the image within the element */
@@ -122,11 +136,23 @@
     width: 800px;
     
 }
-  
-  
+
+.parent {
+  text-align: center;
+  list-style-type: none;
+
+}
+.parent > ul {
+  display: inline-block;
+}
 
 
+  
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+
+

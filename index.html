@@ -10,9 +10,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <link rel="icon" href="Website Photos/Chris.jpg">
-
-
     <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
 </head>
 
 <body>
@@ -28,13 +29,13 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">CV</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Learning</a>
+                        <a class="nav-link" href="#skills">Skills & Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -46,31 +47,36 @@
     <!--- end of nav bar-->
 
     <!-- welcome -->
-    <div class="parallax" >
-        <div class="programming" id="parallax_text" >
-            <div class="container-fluid" >
+    <div class="parallax">
+        <div class="programming" id="parallax_text">
+            <div class="container-fluid">
                 <div class="row welcome text-center">
-                    <div class="col-12" >
+                    <div class="col-12">
                         <h1 class="display-1">Chris Hulme</h1>
                         <p class="lead">3rd year MEng Computing & Electronics student.</p>
-                      
-                     </div>
+
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- end of welcome -->
 
-    <!-- 2 column-->
-    <div class="container-fluid padding" id="biography">
-        <div class="row padding">
-            <div class="col-lg-6" id="biography_text">
-                <div class="jumbotron vertical-center">
-                    <h1 class="display-4">About Me</h1>
-                    <p class="lead">I'm Chris Hulme, currently studying <b>MEng Computing and Electronics</b> at Heriot-Watt University in Edinburgh, UK.</p>
-                    <p class="lead">I'm pursuing a career in <b>software engineering</b>, in particular I would love to work on <b>robotics</b>. It seems like the perfect blend of my interests, involving a mixture of electronics, software engineering and computer science.</p>
+
+    <div id="about">
+        <!-- 2 column-->
+        <div class="container-fluid padding" id="biography">
+            <div class="row padding">
+                <div class="col-lg-6" id="biography_text">
+                    <div class="jumbotron vertical-center">
+                        <h1 class="display-4">About Me</h1>
+                        <p class="lead">I'm Chris Hulme, currently studying <b>MEng Computing and Electronics</b> at
+                            Heriot-Watt University in Edinburgh, UK.</p>
+                        <p class="lead">I'm pursuing a career in <b>software engineering</b>, in particular I would love
+                            to work on <b>robotics</b>. It seems like the perfect blend of my interests, involving a
+                            mixture of electronics, software engineering and computer science.</p>
+                    </div>
                 </div>
-            </div>
 
                 <div class="col-lg-6" id="biography_picture">
                     <img src="Website Photos/Chris.jpg" class="img-fluid" id="biography_picture">
@@ -80,52 +86,74 @@
 
     </div>
     <!-- end of 2 column-->
-<br>
-    <div class="container-fluid" id="interests">
 
-        <div class="row padding text-center">
-            <div class="col-12">
-                <p class="lead" id="company_info">In my spare time, I enjoy reading, weight-lifting, running, hiking and skiing!</p>
+
+
+    <div class="parallax">
+        <div class="hiking" id="parallax_text">
+            <div class="container-fluid">
+                <div class="row welcome text-center">
+                    <div class="col-12">
+                        <p class="lead">In my spare time, I enjoy reading, weight-lifting, running, hiking and skiing!
+                        </p>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    </a>
 
 
-
-    <div class="container-fluid">
-        <div class="row welcome text-center">
-            <div class="col-12">
+    <div id="skills">
 
 
-                
-
-
-<div id="slides" class="carousel slide" data-ride="carousel">
-    <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-     </ul>
-
-     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="Website Photos/Hiking.jpg" id="center-cropped">
+        <div class="container-fluid">
+            <div class="row welcome text-center">
+                <div class="col-12">
+                    <h1 class="display-4">Skills</h1>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-            <img src="Website Photos/France.jpg" id="center-cropped">
-        </div>
-        <div class="carousel-item">
-            <img src="Website Photos/Skiing.jpg" id="center-cropped">
-        </div>
-    </div>
-</div>
+
+
+        <div class="container-fluid padding" style="max-width: 50%">
+            <div class="row text-center padding">
+                <div class="col-sm">
+                    <i class="fas fa-code		" style="font-size:30px"></i>
+                    <h3>Programming Languages</h3>
+                    <div class="parent">
+                        <li class="lead">C++</li>
+                        <li class="lead">C</li>
+                        <li class="lead">Java</li>
+                        <li class="lead">HTML, CSS, JavaScript & Node.js</li>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <i class=' fas fa-clipboard-list		' style='font-size:30px'></i>
+                    <h3>Project</h3>
+                    <div class="parent">
+
+                        <li class="lead">Object-oriented design</li>
+                        <li class="lead">Unified modeling language (UML)</li>
+                        <li class="lead">Project management</li>
+                        <li class="lead">Git</li>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <i class='fas fa-wrench' style='font-size:30px'></i>
+                    <h3>Engineering</h3>
+                    <div class="parent">
+                        <li class="lead">MATLAB</li>
+                        <li class="lead">FPGA development (using Verilog)</li>
+                        <li class="lead">Microcontroller development</li>
+                        <li class="lead">Digital signal processing</li>
+                    </div>
+                </div>
 
             </div>
         </div>
     </div>
-    
-
-<br>
 
 
 
@@ -134,11 +162,11 @@
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
-                if (prevScrollpos > currentScrollPos) {
-                    document.getElementById("navbar").style.top = "0";
-                } else {
-                    document.getElementById("navbar").style.top = "-150px";
-                }
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-150px";
+            }
             prevScrollpos = currentScrollPos;
         }
     </script>
